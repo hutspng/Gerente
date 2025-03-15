@@ -1,0 +1,21 @@
+body{
+
+    background-image: url(../static/img/login_background.png);
+
+
+}
+
+.form{
+
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+.itens{
+
+    padding: 400px;
+}
+
+.itens img{
+
+    
+}
