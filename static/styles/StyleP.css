@@ -2,9 +2,25 @@ body{
 
     background-color: rgb(26, 26, 26);
     position: fixed;
+    color: white;
+    font-family: monospace;
 
 }
 
+.bt{
+
+    background-color: #7f5af0;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.bt:hover{
+
+    background-color: #9c82e9;
+}
 
 .menu{
 

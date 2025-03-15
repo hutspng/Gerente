@@ -1,21 +1,63 @@
 body{
 
-    background-image: url(../static/img/login_background.png);
-
+    background-image: url('../img/login_background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
 
 }
 
 .form{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.39);
+    border-radius: 20px;
+    margin-top: 35%;
+    margin-left: 100%;
+}
 
-    background-color: rgba(0, 0, 0, 0.555);
+.form input{
+
+    height: 20px;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 25px;
+
+}
+
+.form img{
+
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+
 }
 
 .itens{
 
-    padding: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .itens img{
 
-    
+    padding: 80px;
+    border-radius: 50%;
+}
+
+.bt{
+
+    margin-bottom: 10px;
+    margin-top: 30px;
+    height: 50px;
+    width: 200px;
 }
