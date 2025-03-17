@@ -1,0 +1,55 @@
+/* Home.html */
+.box::after {
+    content: '';
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    background: repeating-conic-gradient(
+        from var(--a),
+        #7f5af0 0%,
+        #7f5af0 10%,
+        transparent 10%,
+        transparent 40%,
+        #7f5af0 50%
+    );
+    animation: animar 10s linear infinite;
+    border-radius: 20px;
+}
+
+
+
+.box2::after {
+    content: '';
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    background: repeating-conic-gradient(
+        from var(--a),
+        #7f5af0 0%,
+        #7f5af0 10%,
+        transparent 10%,
+        transparent 40%,
+        #7f5af0 50%
+    );
+    animation: animar 10s linear infinite;
+    border-radius: 20px;
+}
+
+/* Animação */
+@keyframes animar {
+    0% {
+        --a: 0deg;
+    }
+    100% {
+        --a: 360deg;
+    }
+}
+
+/* Propriedade personalizada para o ângulo */
+@property --a {
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 0deg;
+}
+
+

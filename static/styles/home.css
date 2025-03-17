@@ -1,0 +1,141 @@
+body{
+
+    margin: 0px;
+}
+.side-bar{
+
+    height: 100%;
+    width: 400px;
+    left: 0px;
+    background-color: rgb(61, 61, 61);
+    position: fixed;
+}
+
+.logo img{
+
+    height: 100px;
+    width: 200px;
+    margin-left: 10px;
+}
+
+.bar{
+
+    height: 3px;
+    width: 390px;
+    background-color: rgb(26, 26, 26);
+    margin: 5px;
+    border-radius: 20px;
+    margin-top: 0px;
+}
+
+.panel{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.panel button{
+
+    margin-bottom: 10px;
+}
+
+.profile{
+
+    background-color: rgb(12, 12, 12);
+    height: 110px;
+    width: 380px;
+    margin: 10px;
+    border-radius: 20px;
+    position:fixed;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.profile img{
+
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin: 20px;
+}
+
+.profile div{
+
+    margin: 5px;
+    font-size: 18px;
+    
+}
+
+.img-slider{
+
+    height: 500px;
+    width: 800px;
+    background-color: rgb(26, 26, 26);
+    border-radius: 20px;
+    margin: 50px 0px 0px 37%;
+    position: fixed;
+}
+
+.box {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.image {
+    
+    position: relative;
+    z-index: 1;
+    background: rgb(26, 26, 26);
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.box2 {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.txt-slider{
+
+    height: 150px;
+    width: 600px;
+    background-color: rgb(26, 26, 26);
+    border-radius: 20px;
+    margin: 600px 0px 0px 43%;
+    position: fixed;
+    
+}
+
+.txt{
+
+    position: relative;
+    z-index: 1;
+    background: rgb(26, 26, 26);
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+
+}
