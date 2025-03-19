@@ -1,0 +1,30 @@
+.up-bar{
+
+    background-color: rgb(61, 61, 61);
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo{
+
+    height: 70px;
+    width: 140px;
+    padding: 20px;
+
+}
+
+.margin{
+
+    margin-left: 50px;
+
+}
+
+.txt-input{
+
+    margin-left: 350px;
+}

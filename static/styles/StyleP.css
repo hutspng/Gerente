@@ -4,6 +4,7 @@ body{
     position: fixed;
     color: white;
     font-family: monospace;
+    margin: 0px;
 
 }
 
@@ -25,4 +26,13 @@ body{
 .menu{
 
     background-color: rgb(61, 61, 61);
+}
+
+.txt-input{
+
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    width: 300px;
+    
 }
