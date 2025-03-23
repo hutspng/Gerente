@@ -3,7 +3,7 @@ body{
     background-color: rgb(26, 26, 26);
     position: fixed;
     color: white;
-    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
 
 }
@@ -28,11 +28,35 @@ body{
     background-color: rgb(61, 61, 61);
 }
 
-.txt-input{
 
-    padding: 5px;
+
+.search-bar{
+
+    background-color: white;
     border-radius: 20px;
+    height: 30px;
+    width: 500px;
+    display: flex;
+
+}
+
+.search-bar input{
+
+    background-color: white;
     border: none;
-    width: 300px;
-    
+    border-radius: 50px;
+    height: 20px;
+    width: 460px;
+    color: black;
+    margin-left: 5px;
+}
+
+.search-bar button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #888;
+}
+.search-bar button:hover {
+    color: #333;
 }

@@ -38,5 +38,27 @@
 
 .txt-input{
 
-    margin-left: 350px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    width: 450px; 
+    background-color: white;
+    outline: none;
+    margin-left: 5px ;
+    
+}
+
+.txt-input::selection{
+
+    border: none;
+}
+
+.search-bar{
+
+    align-self: center;
+    margin-left: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
 }
