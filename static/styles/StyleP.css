@@ -88,3 +88,8 @@ input{
 
     outline: none;
 }
+
+button i{
+
+    margin-right: 10px;
+}

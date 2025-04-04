@@ -1,0 +1,67 @@
+.side-bar{
+
+    height: 100%;
+    width: 400px;
+    left: 0px;
+    background-color: rgb(37, 37, 37);
+    position: fixed;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.bt{
+
+    display: flex;
+    background-color: red;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 50%;
+    width: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt i{
+
+    margin-left: 9px;
+}
+.bt:hover{
+
+    background-color: brown;
+    color: azure;
+}
+
+.bar{
+
+    height: 3px;
+    width: 90%;
+    background-color: rgb(20, 20, 20);
+    align-self: center;
+}
+
+#bot{
+
+    margin-top: 200px;
+}
+
+.side-bar .ab{
+
+    background-color: rgb(37, 37, 37);
+    border: none;
+    color: rgb(214, 214, 214);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-self: flex-start;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 90%;
+    
+}
+
+.side-bar .ab:hover{
+
+    background-color: rgb(61, 61, 61);
+}
+
+
+/* cartas */
