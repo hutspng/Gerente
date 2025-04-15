@@ -3,4 +3,6 @@ vai fazer o registro das suas despesas, e de dinheiro que tem que receber, tamb�
 
 também tem uma área de playGround onde vão ficar varias funcionalidades úteis e algumas inuteis mais divertidas, com varias funcionalidades diversas como, girar dados, rodar roletas, fazer calculos especificos, e etc.
 
+ps: ignorar a pagina de login...
+
 Figma: https://www.figma.com/board/wIxaSPJZVaflouBnUvsPfL/meu-app-site?t=ziJAavxYhLOtFpAN-1
